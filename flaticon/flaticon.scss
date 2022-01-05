@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?3807245dd4f22d9ac7c5a91905d63d08") format("truetype"),
+url("./flaticon.woff?3807245dd4f22d9ac7c5a91905d63d08") format("woff"),
+url("./flaticon.woff2?3807245dd4f22d9ac7c5a91905d63d08") format("woff2"),
+url("./flaticon.eot?3807245dd4f22d9ac7c5a91905d63d08#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3807245dd4f22d9ac7c5a91905d63d08#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "rocket": "\f101",
+    "user": "\f102",
+    "speech-bubble-with-text-lines": "\f103",
+    "big-light": "\f104",
+    "megaphone": "\f105",
+    "comment": "\f106",
+    "document": "\f107",
+    "users": "\f108",
+    "clock": "\f109",
+    "flag": "\f10a",
+);
+
+.flaticon-rocket:before {
+    content: map-get($flaticon-map, "rocket");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-speech-bubble-with-text-lines:before {
+    content: map-get($flaticon-map, "speech-bubble-with-text-lines");
+}
+.flaticon-big-light:before {
+    content: map-get($flaticon-map, "big-light");
+}
+.flaticon-megaphone:before {
+    content: map-get($flaticon-map, "megaphone");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-document:before {
+    content: map-get($flaticon-map, "document");
+}
+.flaticon-users:before {
+    content: map-get($flaticon-map, "users");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-flag:before {
+    content: map-get($flaticon-map, "flag");
+}

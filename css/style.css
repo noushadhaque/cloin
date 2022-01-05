@@ -1,0 +1,881 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.title-feature span {
+  font-weight: 600;
+}
+
+/* ========================================
+                header part start
+=========================================*/
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header .logo {
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header .logo img {
+  z-index: 9999;
+}
+/* ========================================
+                header part end
+=========================================*/
+
+/* ========================================
+                banner part start
+=========================================*/
+
+#banner-part .banner-background {
+  background: url(../images/banner.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner-part .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding-bottom: 150px;
+}
+
+#banner-part .banner-text {
+  padding: 250px 0 120px;
+}
+
+#banner-part .banner-text h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#banner-part .banner-text h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 20px 0;
+}
+
+#banner-part .banner-text span {
+  font-weight: 600;
+}
+
+#banner-part .banner-text .description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: #fff;
+  opacity: 0.65;
+}
+
+#banner-part .banner-text .btn {
+  margin-top: 40px;
+  padding: 0;
+}
+
+#banner-part .banner-text .btn a {
+  display: inline-block;
+  padding: 15px 50px;
+  background: #05d561;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  transition: 0.4s;
+}
+
+#banner-part .banner-text .btn a:hover {
+  background: #222;
+  text-shadow: none;
+  transform: translateY(-3px);
+}
+
+#banner-part .banner-text .btn .text {
+  display: inline-block;
+  color: #fff;
+  width: 250px;
+  font-size: 16px;
+  width: 150px;
+  opacity: 0.35;
+}
+
+#banner-part .banner-text .btn:hover .text {
+  opacity: 1;
+}
+
+#banner-part .form-part {
+  margin-top: 160px;
+  background: #fff;
+  border-radius: 10px;
+  color: #000;
+  padding: 60px 50px;
+}
+
+#banner-part .form-part .f_icon {
+  width: 80px;
+  height: 80px;
+  background: rgba(5, 213, 97, 0.15);
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+#banner-part .form-part .f_heading {
+  text-align: center;
+}
+
+#banner-part .form-part .f_heading h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: #222;
+  margin: 12px 0;
+}
+
+#banner-part .form-part .f_heading p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #888;
+}
+
+#banner-part .form-part .f_section {
+  margin-top: 20px;
+}
+
+#banner-part .form-part .f_section input {
+  width: 100%;
+  line-height: 45px;
+  margin-bottom: 18px;
+  padding-left: 20px;
+  border-radius: 5px;
+  background: #eee;
+  border: none;
+  border: 2px solid #eee;
+  -moz-appearance: textfield;
+}
+
+#banner-part .form-part .f_section input:focus {
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid #eee;
+}
+
+#banner-part .form-part .f_section button {
+  width: 100%;
+  line-height: 50px;
+  background: #05d561;
+  border-radius: 5px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.4s;
+}
+
+/* ========================================
+                banner part end
+=========================================*/
+
+/* ========================================
+                service-1 part start
+=========================================*/
+
+#service-part-1 .title-feature {
+  padding: 100px 0 80px;
+  position: relative;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+#service-part-1 .title-feature p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #222;
+  text-align: center;
+  width: 830px;
+  margin: 0 auto;
+}
+
+#service-part-1 .details {
+  padding: 75px 0 125px;
+}
+
+#service-part-1 .details .box-info {
+  text-align: center;
+  transition: 0.3s;
+}
+
+#service-part-1 .details .box-info:hover {
+  transform: translateY(-10px);
+}
+
+#service-part-1 .details .box-info .box-icon {
+  width: 80px;
+  height: 80px;
+  background: rgba(5, 213, 97, 0.15);
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+#service-part-1 .details .box-info:hover .box-icon {
+  box-shadow: inset 0 0 0 40px #05d561;
+  color: #fff;
+}
+
+#service-part-1 .details .box-content h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 21.6px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+
+#service-part-1 .details .box-info .box-content a {
+  color: #222;
+  transition: 0.3s;
+}
+
+#service-part-1 .details .box-info:hover .box-content a {
+  color: #05d561;
+}
+
+#service-part-1 .details .box-content p {
+  font: 16px/1.75 "Open Sans", sans-serif;
+  color: #888;
+}
+
+/* ========================================
+                service-1 part end
+=========================================*/
+
+/* ========================================
+                service-2 part end
+=========================================*/
+#service-part-2 {
+  background: #f7f7f7;
+  padding: 95px 0;
+}
+
+#service-part-2 .title-feature {
+  margin-top: 20px;
+}
+
+#service-part-2 .title-feature h2 {
+  margin-bottom: 13px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #222;
+  font-size: 36px;
+}
+
+#service-part-2 .title-feature p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  color: #000;
+  opacity: 0.45;
+  margin-bottom: 22px;
+}
+
+#service-part-2 .box-info {
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+#service-part-2 .box-info h2 {
+  font: 21.6px/1.4 "Titillium Web", sans-serif;
+  font-weight: 600;
+  color: #222;
+  position: relative;
+}
+
+#service-part-2 .box-info .tool {
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+#service-part-2 .box-info span {
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  margin-top: 5px;
+  color: #222;
+}
+
+#service-part-2 .box-info p {
+  font: 16px/1.75 "Open Sans", sans-serif;
+  color: #888;
+}
+
+#service-part-2 .btn {
+  display: inline-block;
+  padding: 12px 35px;
+  background: #05d561;
+  border-radius: 40px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 54px -9px rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+
+#service-part-2 .btn:hover {
+  background: #222;
+  transform: translateY(-5px);
+}
+
+#service-part-2 .feature-img {
+  position: relative;
+  box-shadow: 0px 0px 55px -28px rgba(0, 0, 0, 0.75);
+}
+
+#service-part-2 .feature-img img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+#service-part-2 .feature-img .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#service-part-2 .feature-img .overlay:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#service-part-2 .feature-img .overlay a {
+  color: #fff;
+}
+
+#service-part-2 .feature-img .overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #05d561;
+  text-align: center;
+  line-height: 100px;
+  font-size: 24px;
+  transition: 0.3s;
+  animation: animate 1.2s linear infinite;
+  z-index: 99;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 rgba(44, 250, 135, 0.5);
+  }
+
+  40% {
+    box-shadow: 0 0 0 35px rgba(29, 66, 46, 0);
+  }
+
+  80% {
+    box-shadow: 0 0 0 35px rgba(44, 250, 135, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(44, 250, 135, 0);
+  }
+}
+
+#service-part-2 .feature-img .overlay i::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #222;
+  transform: scale(0);
+  transition: 0.3s;
+  z-index: -1;
+}
+
+#service-part-2 .feature-img .overlay i:hover::after {
+  transform: scale(1);
+}
+
+/* ========================================
+                service-2 part end
+=========================================*/
+
+/* ========================================
+                facts part start
+=========================================*/
+#facts-part {
+  margin-bottom: 100px;
+}
+
+#facts-part .background-img {
+  background: url(../images/count-img.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#facts-part .background-img .overlay {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+}
+
+#facts-part .box-info {
+  text-align: center;
+}
+
+#facts-part .box-info .box-icon i {
+  font-size: 48px;
+  color: #05d561;
+}
+
+#facts-part .box-info .box-content h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #fff;
+}
+
+#facts-part .box-info .box-content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16.2px;
+  font-weight: 300;
+  opacity: 0.6;
+  color: #fff;
+}
+/* ========================================
+                facts part end
+=========================================*/
+/* ========================================
+                pricing part start
+=========================================*/
+#pricing-part {
+  margin-bottom: 50px;
+}
+
+#pricing-part .title-feature {
+  text-align: center;
+}
+
+#pricing-part .title-feature h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 32.4px;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #222;
+  width: 650px;
+  margin: 0 auto 20px;
+}
+
+#pricing-part .title-feature p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  color: #000;
+  opacity: 0.45;
+  width: 550px;
+  margin: 0 auto 60px;
+}
+
+#pricing-part .table-info {
+  border: 4px solid rgb(206, 206, 206);
+  border-radius: 10px;
+  padding: 30px 0px;
+  transition: 0.3s;
+}
+
+#pricing-part .table-info:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(121, 120, 120);
+}
+
+#pricing-part .table-info:hover h2 {
+  color: #05d561;
+}
+
+#pricing-part .pro:hover {
+  border-color: #05d561;
+}
+
+#pricing-part .table-icon {
+  text-align: center;
+}
+
+#pricing-part .table-icon i {
+  margin-bottom: 15px;
+  font-size: 36px;
+  color: #222;
+}
+
+#pricing-part .table-icon h5 {
+  font-size: 14px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #aaa;
+}
+
+#pricing-part .table-icon h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #222;
+  transition: 0.3s;
+}
+
+#pricing-part .table-icon h6 {
+  margin-top: -3px;
+  font: 14px/1.75 "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #888;
+}
+
+#pricing-part .table-icon a {
+  display: inline-block;
+  margin-top: 25px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  background: #05d561;
+  color: #fff;
+  padding: 12px 35px;
+  border-radius: 999px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+#pricing-part .table-icon a:hover {
+  transform: translateY(-5px);
+  background: #222;
+}
+
+#pricing-part .table-content {
+  margin-top: 30px;
+}
+
+#pricing-part .table-content ul li {
+  display: block;
+  font: 18px/1.75 "Open Sans", sans-serif;
+  color: #888;
+  margin: 5px 0;
+  position: relative;
+}
+
+#pricing-part .table-content ul li i {
+  margin-left: auto;
+  color: #222;
+  position: absolute;
+  top: 5px;
+  right: 30px;
+}
+
+#pricing-part .pro {
+  color: #05d561 !important;
+  border-color: #05d561;
+}
+
+/* ========================================
+                pricing part end
+=========================================*/
+
+/* ========================================
+              testimonial part start
+=========================================*/
+#testi-part {
+  padding: 120px 0 120px;
+  background: #f7f7f7;
+}
+
+#testi-part .title-feature {
+  text-align: center;
+}
+
+#testi-part .title-feature h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 32.4px;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #222;
+  width: 335px;
+  margin: 0 auto;
+}
+
+#testi-part .title-feature p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  opacity: 0.45;
+  width: 590px;
+  margin: 20px auto;
+}
+
+#testi-part .testi-main {
+  text-align: center;
+}
+
+#testi-part .testi-main .testi-inside {
+  margin: 30px 15px 0;
+}
+
+#testi-part .ts-content {
+  border: 1px solid #05d561;
+  border-radius: 10px;
+  padding: 40px;
+  font: 16px/1.75 "Open Sans", sans-serif;
+  background: #fff;
+  color: #888;
+  position: relative;
+}
+
+#testi-part .ts-content .icon-quote {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 40px;
+  height: 40px;
+  background: #05d561;
+  color: #fff;
+  text-align: center;
+  line-height: 64px;
+  border-radius: 50%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+#testi-part .ts-person .ts-img {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  margin: 40px auto 10px;
+}
+
+#testi-part .ts-person .ts-name h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 21.6px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #222;
+}
+
+#testi-part .ts-person .ts-name h5 {
+  font: 16px/1.75 "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #888;
+}
+
+#testi-part .ts-person .rating i {
+  color: #ff9831;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ========================================
+              testimonial part end
+=========================================*/
+
+/* ========================================
+              client part start
+=========================================*/
+#client-part {
+  background: #05d561;
+}
+
+#client-part .client-slider {
+  padding: 100px 0;
+}
+
+/* ========================================
+              client part end
+=========================================*/
+
+/* ========================================
+              waiting part start
+=========================================*/
+#waiting-part .waiting-bg {
+  background: url(../images/waiting-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#waiting-part .waiting-bg .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 140px 0;
+}
+
+#waiting-part .box-center h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 1.2;
+  color: #fff;
+}
+
+#waiting-part .box-center h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 13px;
+}
+
+#waiting-part .box-center p {
+  font: 20px/1.75 "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.65;
+  color: #fff;
+}
+
+#waiting-part .btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#waiting-part .btn a {
+  display: inline-block;
+  padding: 15px 40px;
+  background: #05d561;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+
+  transition: 0.4s;
+}
+
+#waiting-part .btn a:hover {
+  background: #222;
+  text-shadow: none;
+  transform: translateY(-3px);
+}
+
+/* ========================================
+              waiting part end
+=========================================*/
+
+/* ========================================
+              footer part end
+=========================================*/
+footer .footer-main {
+  background: #fff;
+  padding: 50px;
+}
+
+footer .footer-main .copyright-message {
+  width: 80%;
+}
+
+footer .footer-main .copyright-message p {
+  font: 18px/1.75 "Open Sans", sans-serif;
+  color: #888;
+}
+
+footer .footer-main .copyright-message span {
+  font-weight: bolder;
+  color: #000;
+}
+
+footer .footer-main .social-icon {
+  width: 20%;
+}
+
+footer .footer-main .social-icon i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(226, 226, 226);
+  text-align: center;
+  line-height: 40px;
+  margin: 0 5px;
+}
+/* ========================================
+              waiting part end
+=========================================*/
